@@ -1,4 +1,4 @@
-# MadridHadron.github
+# HadMad.github
 
 HadMad — Hadron Physics in Madrid is a research group based at the Universidad Complutense de Madrid (UCM) working on the phenomenology of hadrons, with a particular focus on low-energy strong interactions.
 
