@@ -69,7 +69,7 @@ def phi22(s,b0,b1,b2,Bh2,Bh3,Delta):
 def deltaf2(s,b0,b1,b2,Bh2,Bh3,Delta):
     return 180*np.arctan(1/phi22(s,b0,b1,b2,Bh2,Bh3,Delta)).real/np.pi
 
-# This is the final S2 Global Fit parametrization, and the corresponding phase-shift and elasticity functions
+# This is the final D2 Global Fit parametrization, and the corresponding phase-shift function
 
 def tf(s,params):
     b0,b1,b2,Bh2,Bh3,Delta=params

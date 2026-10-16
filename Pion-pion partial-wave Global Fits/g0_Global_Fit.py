@@ -79,7 +79,7 @@ def b1(Gg,mg,Rg,xg):
 def b0(Gg,mg,Rg,xg):
     return cotdbw_eff(sm,Gg,mg,Rg,xg) - b1(Gg,mg,Rg,xg)*w(sm)
 
-#  The conformal phase-shift is defined
+#  The conformal phase-shift is defined as
 
 def phi(s,Gg,mg,Rg,xg):
     return mpi**8*(b0(Gg,mg,Rg,xg) + b1(Gg,mg,Rg,xg)*w(s))/(sigma(s,mpi)*q(s,mpi)**8)

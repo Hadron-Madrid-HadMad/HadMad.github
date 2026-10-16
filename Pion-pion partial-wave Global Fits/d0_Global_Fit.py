@@ -158,7 +158,7 @@ def etafr(s,eps,r,mf2,me,eps2,eps3,eps4):
 
 def tf(s,params):
     b0,b1,b2h,eps,r,mf2,me,d2,d3,d4,eps2,eps3,eps4=params
-    return (etafr(s,eps,r,mf2,me,eps2,eps3,eps4)*c.exp(np.pi*1j*deltafr(s,b0,b1,b2h,mf2,me,d2,d3,d4)/90)-1)/(2j*sigma(s,mpi))
+    return (etafr(s,eps,r,mf2,me,eps2,eps3,eps4)*c.exp(np.pi*1j*deltafr(s,b0,b1,b2h,mf2,d2,d3,d4)/90)-1)/(2j*sigma(s,mpi))
 
 def deltaf(s,params):
     b0,b1,b2h,eps,r,mf2,me,d2,d3,d4,eps2,eps3,eps4=params
